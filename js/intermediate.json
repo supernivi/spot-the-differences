@@ -1,0 +1,9 @@
+[
+  {
+    "question": "./img/q1.jpg",
+    "choice1": "More than one but less than three",
+    "choice2": "More than three but less than six",
+    "choice3": "No differences",
+    "answer": 2
+  }
+]
