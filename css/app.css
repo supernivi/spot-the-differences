@@ -24,12 +24,12 @@ body{
 .logo {
   margin: 0 auto;
   display: block;
-  margin-top: 30px;
+  margin-top: 1rem;
   margin-bottom: 36px;
   /* height: 48px; */
   /* new */
   max-height: 5rem;
-  margin-bottom: 3.6rem;
+  margin-bottom: 1rem;
 }
 
 .results-social {
@@ -105,6 +105,7 @@ h4 {
   background-size: 160vh;
   align-items: center;
   max-width: 400px;
+  padding-top: 4rem;
 }
 
 .container {
@@ -112,11 +113,12 @@ h4 {
   min-height: 80vh;
   max-height: 148vh;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
+  flex-direction: column;
 }
 
 .container > * {
@@ -198,9 +200,19 @@ input::placeholder {
 
 
 /* New @suraj */
+
+.top-container{
+  margin: 10px;
+  max-width: 400px;
+}
+
 .how-to{
   max-width: 400px;
-  padding: 1.6rem 1.4rem 0;
+  padding: 1.8rem 1rem 0;
+}
+
+.how-to .how-to-sub{
+  font-size: 1.4rem;
 }
 
 /* Media queries */
