@@ -13,12 +13,20 @@
   color: #333;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   margin: 0 auto;
   display: block;
   margin-top: 30px;
   margin-bottom: 36px;
-  height: 48px;
+  /* height: 48px; */
+  /* new */
+  max-height: 6rem;
+  margin-bottom: 0.5em;
 }
 
 .results-social {
@@ -78,16 +86,22 @@ h3 {
   font-weight: 500;
 }
 
+h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
 /* UTILITIES */
 .main-container {
   background: #fff;
-  margin: 10px 39.8%;
+  margin: 10px;
   border: 2px solid #000;
   border-radius: 24px;
   background: url(https://d33wubrfki0l68.cloudfront.net/a22eae9b9425d865a7ff6e5fba4d675c217cb000/bg.jpg);
   min-height: 97.5vh;
   background-size: 160vh;
   align-items: center;
+  max-width: 400px;
 }
 
 .container {
