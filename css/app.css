@@ -15,7 +15,10 @@
 
 body{
   display: flex;
-  justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -87,7 +90,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -192,6 +195,15 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+
+/* New @suraj */
+.how-to{
+  max-width: 400px;
+  padding: 1.6rem 1.4rem 0;
+}
+
+/* Media queries */
 
 @media (max-width: 900px){
   body{
